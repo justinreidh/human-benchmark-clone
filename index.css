@@ -104,12 +104,15 @@ p {
     box-shadow: 1px 5px 10px rgba(41, 41, 41, 0.127);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 1rem;
     cursor: pointer;
     margin-bottom: 1.5rem;
     height: 14rem;
+}
+
+.info {
+    height: fit-content;
 }
 
 .card * {
@@ -118,6 +121,7 @@ p {
 
 .card > i {
     font-size: 4rem;
+    margin-top: 2rem;
     color: rgb(146, 183, 213);
 }
 
@@ -161,4 +165,12 @@ p {
 
 .buttonholder > h2 {
     margin: 0 2rem 0 2rem;
+}
+
+#redscreen {
+    background-color: rgb(205, 46, 46);
+}
+
+#greenscreen {
+    background-color: rgb(60, 161, 60);
 }
