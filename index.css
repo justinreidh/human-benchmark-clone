@@ -174,3 +174,26 @@ p {
 #greenscreen {
     background-color: rgb(60, 161, 60);
 }
+
+.gameboard > h3 {
+    margin:.5rem;
+    color: rgb(215, 215, 215);
+}
+
+.input {
+    background-color: rgb(50, 103, 182);
+    width: min(90%, 900px);
+    height: 4rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+}
+
+.fail {
+    text-decoration: line-through;
+    color: black;
+}

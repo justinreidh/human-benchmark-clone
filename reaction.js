@@ -69,7 +69,7 @@ const gameEventClick = () => {
             beginGame();
         } else {
             endTime = new Date()
-            let timeDiff = endTime - startTime;
+            let timeDiff = endTime - startTime - 50;
             runningTotals.push(timeDiff)
             if (runningTotals.length == 5) {
                 let avg = generateAvg(runningTotals);
@@ -115,7 +115,7 @@ const finished = (milliseconds) => {
     emptyBoard();
     gameBoard.removeAttribute('id')
     runningTotals = []
-    const name = document.createElement('p')
+    const name = document.createElement('h1')
     name.classList = 'content'
     name.textContent = 'Reaction Time Test'
     const title = document.createElement('h1')
